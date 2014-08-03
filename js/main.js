@@ -114,22 +114,10 @@ $("a[href='#bottom']").click(function() {
 		
 		var form_data = $(this).serialize();
 
-		if (validateEmail($('input[name=email]').attr('value')))
+		if (validateEmail($('input[name=EMAIL]').attr('value')))
 		{
-			
-			if (typeof ajax_form !== "undefined" && ajax_form === true)
-			{
-				
-				$.post($(this).attr('action'), form_data, function(data) {
-					$('form').show('slow', function() { $(this).after('<div class="clear"></div> <p class="msg-ok">'+ data + '</p>'); });
-	  				$('.spam').hide();
-	  				$('.msg-ok').delay(300).effect("pulsate", { times:1 }, 1000);
-				});
-				
-				return false;
-				
-			}
-			
+			$('p.spam').text('Boom! You\'re in. We will be in touch soon ;)').effect("pulsate", { times:3 }, 1000);
+			return true;
 		}
 
 		else
