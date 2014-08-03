@@ -116,7 +116,7 @@ $("a[href='#bottom']").click(function() {
 
 		if (validateEmail($('input[name=EMAIL]').attr('value')))
 		{
-			$('p.spam').text('Boom! You\'re in. We will be in touch soon ;)').effect("pulsate", { times:3 }, 1000);
+			$('p.spam').text('Boom! You\'re in. Look out for a confirmation email. We will be in touch soon ;)').effect("pulsate", { times:4 }, 1000);
 			return true;
 		}
 

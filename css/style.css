@@ -486,16 +486,6 @@ nav {
 
 
 
-/* 05. TESTIMONIAL SECTION ================================================== */
-
-#testimonial { 
-	padding:60px 0 10px 0; 
-	z-index: 999; 
-	position: relative; 
-	background: #FFF; 
-	border-top:1px solid #eee; }
-
-
 /* 06. JOIN US TEXT SECTION ================================================== */
 
 
@@ -630,7 +620,7 @@ form {
 
 .mobile-menu {
 	display:none;
-	background: #222;
+	background: #680000;
 	width:100%;
 	text-align: center;
 	z-index: 99999999;
@@ -701,7 +691,7 @@ and (max-width : 568px) {
 	
 	.cbp-af-header {display: none;}
 
-	#header {background:url('#') #222; height:450px;}
+	#header {background:url('#') #680000; height:450px;}
 	
 	#header .logo {text-align: center;}
 		
@@ -731,7 +721,7 @@ and (max-width : 568px) {
 	
 	.cbp-so-side img {text-align: center; opacity: 1;}
 	
-	.cbp-so-side-video, .cbp-so-side-img {display: none; opacity: 1;}
+	.cbp-so-side-video, .cbp-so-side-img {display: center; opacity: 1;}
 	
 	.cbp-so-side-left img { float: none; }
 
@@ -773,7 +763,7 @@ and (max-width : 1024px) {
 	
 	.cbp-af-header {display: none;}
 	
-  	#header {background:url('#') #222; height:500px;}
+  	#header {background:url('#') #680000; height:500px;}
   	
 	#header .twelve.columns { margin-top:10%; text-align: center;  }
 	
