@@ -98,6 +98,7 @@ $('.button').click(function(e){
 /*-----------------------------------------------------------------------------------*/
 	
 
+
 	/* Form Submission */
 	$('form').submit(function() {
 		
@@ -138,35 +139,6 @@ function validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
 }
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	07. FLEXSLIDER - TESTIMONIAL
-/*-----------------------------------------------------------------------------------*/
-	
-
-	$('#slider1').flexslider({
-		animation: "fade",
-		directionNav:false,
-		controlNav:false,
-		smoothHeight: true,
-		animationLoop:true,
-		slideshowSpeed: 3000,		
-		slideToStart: 0,
-	});
-	
-	$('#slider2').flexslider({
-		animation: "slide",
-		directionNav:true,
-		controlNav:false,		
-		smoothHeight: true,
-		animationLoop:true,
-		sync: "#slider1",
-		slideshowSpeed: 3000,			
-		slideToStart: 0,
-	});
-								
-
 
 
 /*-----------------------------------------------------------------------------------*/
