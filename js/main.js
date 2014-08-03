@@ -92,6 +92,16 @@ $('.button').click(function(e){
     e.preventDefault();
 });
 
+$('.backtotop').click(function(e){
+    $('html,body').scrollTo(this.hash,this.hash);
+    e.preventDefault();
+});
+    
+$("a[href='#bottom']").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+  return false;
+});
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	06. FORM SENDER
