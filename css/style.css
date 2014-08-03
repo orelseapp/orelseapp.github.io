@@ -708,7 +708,9 @@ and (max-width : 568px) {
   	.social-stuff {display: none;}
   	
   	.social {display:none;}
-  	
+    
+    .button2 {display: none !important; float: none;}
+    
   	#footerSpacer {display: none;}
   	
   	.download-button {text-align: center; float: inherit;  margin: 0 auto; }
@@ -770,7 +772,7 @@ and (max-width : 1024px) {
 	#header h2 {font-size:2em}
 	
 	#header .button {font-size:16px;}
-
+    
   	#joinus {position: relative; bottom: auto;} 
   	
   	#signup {position: relative; bottom: auto;} 
